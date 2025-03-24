@@ -1,0 +1,8 @@
+wall -2.9  0.0 0.1 1.0 wall.png shaders/tile.vert shaders/tile.frag
+wall  2.9  0.0 0.1 1.0 wall.png shaders/tile.vert shaders/tile.frag
+wall  0.0 -0.9 3.0 0.1 wall.png shaders/tile.vert shaders/tile.frag
+wall  0.0  0.9 3.0 0.1 wall.png shaders/tile.vert shaders/tile.frag
+text  0.0  0.0 1.0 0.4 20 8 It's dangerous to program alone. Take this textbox class. (You'll probably want to modify it, though)
+text  2.0  0.0 0.4 0.4 8 8 Here is a long word: photosynthesis
+
+bird  0.5 0.5

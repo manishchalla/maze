@@ -1,0 +1,106 @@
+﻿  common.cpp
+E:\Gaming\textbox\game\inc\glazy_program.h(53,34): warning C4267: 'initializing': conversion from 'size_t' to 'GLint', possible loss of data
+  (compiling source file 'apps/common.cpp')
+  E:\Gaming\textbox\game\inc\glazy_program.h(53,34):
+  the template instantiation context (the oldest one first) is
+  	E:\Gaming\textbox\game\apps\common.cpp(24,54):
+  	see reference to class template instantiation 'glazy::Shader<35632>' being compiled
+  	E:\Gaming\textbox\game\inc\glazy_program.h(45,3):
+  	while compiling class template member function 'glazy::Shader<35632>::Shader(std::string)'
+  		E:\Gaming\textbox\game\inc\glazy_program.h(62,4):
+  		see the first reference to 'glazy::Shader<35632>::Shader' in 'glazy::Shader<35632>::from_file'
+  		E:\Gaming\textbox\game\apps\common.cpp(24,24):
+  		see the first reference to 'glazy::Shader<35632>::from_file' in 'ProgramCache::load'
+  
+E:\Gaming\textbox\game\inc\glazy_program.h(53,23): warning C4267: 'initializing': conversion from 'size_t' to 'const GLint', possible loss of data
+  (compiling source file 'apps/common.cpp')
+  
+  components.cpp
+E:\Gaming\textbox\game\inc\glazy_vao.h(52,30): warning C4267: 'argument': conversion from 'size_t' to 'GLuint', possible loss of data
+  (compiling source file 'apps/components.cpp')
+  E:\Gaming\textbox\game\inc\glazy_vao.h(52,30):
+  the template instantiation context (the oldest one first) is
+  	E:\Gaming\textbox\game\apps\components.cpp(262,12):
+  	see reference to function template instantiation 'glazy::VAO::Attribute &glazy::VAO::Attribute::operator =<glm::vec3>(glazy::Buffer<glm::vec3> &)' being compiled
+  
+E:\Gaming\textbox\game\inc\glazy_vao.h(55,29): warning C4267: 'argument': conversion from 'size_t' to 'GLuint', possible loss of data
+  (compiling source file 'apps/components.cpp')
+  
+  ecs.cpp
+  level.cpp
+E:\Gaming\textbox\game\apps\level.cpp(289,19): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+E:\Gaming\textbox\game\inc\glazy_ecs.h(250,55): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'apps/level.cpp')
+  E:\Gaming\textbox\game\inc\glazy_ecs.h(250,55):
+  the template instantiation context (the oldest one first) is
+  	E:\Gaming\textbox\game\apps\level.cpp(36,32):
+  	see reference to function template instantiation 'glazy::ecs::ComponentHandle<Status>::ComponentHandle<int,int>(int,int)' being compiled
+  		E:\Gaming\textbox\game\apps\level.cpp(36,32):
+  		see the first reference to 'glazy::ecs::ComponentHandle<Status>::ComponentHandle' in 'Creature::Creature'
+  
+  quad.cpp
+  glazy_buffer.cpp
+  glazy_common.cpp
+  glazy_ecs.cpp
+  glazy_program.cpp
+E:\Gaming\textbox\game\lib\glazy_program.cpp(10,86): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+E:\Gaming\textbox\game\lib\glazy_program.cpp(11,88): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+E:\Gaming\textbox\game\lib\glazy_program.cpp(12,88): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+E:\Gaming\textbox\game\lib\glazy_program.cpp(13,88): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+E:\Gaming\textbox\game\lib\glazy_program.cpp(14,84): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+E:\Gaming\textbox\game\lib\glazy_program.cpp(15,89): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+E:\Gaming\textbox\game\lib\glazy_program.cpp(16,89): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+E:\Gaming\textbox\game\lib\glazy_program.cpp(17,89): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+E:\Gaming\textbox\game\lib\glazy_program.cpp(18,86): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+E:\Gaming\textbox\game\lib\glazy_program.cpp(19,90): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+E:\Gaming\textbox\game\lib\glazy_program.cpp(20,90): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+E:\Gaming\textbox\game\lib\glazy_program.cpp(21,90): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+E:\Gaming\textbox\game\lib\glazy_program.cpp(22,94): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+E:\Gaming\textbox\game\lib\glazy_program.cpp(23,94): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+E:\Gaming\textbox\game\lib\glazy_program.cpp(24,94): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+E:\Gaming\textbox\game\lib\glazy_program.cpp(25,98): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+E:\Gaming\textbox\game\lib\glazy_program.cpp(26,98): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+E:\Gaming\textbox\game\lib\glazy_program.cpp(27,98): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+E:\Gaming\textbox\game\lib\glazy_program.cpp(28,98): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+E:\Gaming\textbox\game\lib\glazy_program.cpp(29,98): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+E:\Gaming\textbox\game\lib\glazy_program.cpp(30,98): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+  glazy_texture.cpp
+E:\Gaming\textbox\game\lib\glazy_texture.cpp(65,50): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+E:\Gaming\textbox\game\lib\glazy_texture.cpp(65,43): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+E:\Gaming\textbox\game\lib\glazy_texture.cpp(93,27): warning C4267: 'initializing': conversion from 'size_t' to 'GLsizei', possible loss of data
+E:\Gaming\textbox\game\lib\glazy_texture.cpp(95,81): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+E:\Gaming\textbox\game\lib\glazy_texture.cpp(95,73): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+E:\Gaming\textbox\game\lib\glazy_texture.cpp(95,66): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+E:\Gaming\textbox\game\lib\glazy_texture.cpp(101,67): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+E:\Gaming\textbox\game\lib\glazy_texture.cpp(101,59): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+E:\Gaming\textbox\game\lib\glazy_texture.cpp(101,52): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+E:\Gaming\textbox\game\lib\glazy_texture.cpp(103,56): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+E:\Gaming\textbox\game\lib\glazy_texture.cpp(103,49): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+  glazy_vao.cpp
+E:\Gaming\textbox\game\lib\glazy_vao.cpp(75,30): warning C4267: 'argument': conversion from 'size_t' to 'GLuint', possible loss of data
+E:\Gaming\textbox\game\lib\glazy_vao.cpp(85,31): warning C4267: 'argument': conversion from 'size_t' to 'GLuint', possible loss of data
+  shape.cpp
+  Generating Code...
+  glad.c
+ecs.obj : error LNK2019: unresolved external symbol glfwTerminate referenced in function main
+glazy_common.obj : error LNK2001: unresolved external symbol glfwTerminate
+ecs.obj : error LNK2019: unresolved external symbol glfwDestroyWindow referenced in function main
+ecs.obj : error LNK2019: unresolved external symbol glfwWindowShouldClose referenced in function main
+ecs.obj : error LNK2019: unresolved external symbol glfwPollEvents referenced in function main
+ecs.obj : error LNK2019: unresolved external symbol glfwSetKeyCallback referenced in function main
+ecs.obj : error LNK2019: unresolved external symbol glfwSetMouseButtonCallback referenced in function main
+ecs.obj : error LNK2019: unresolved external symbol glfwSetCursorPosCallback referenced in function main
+ecs.obj : error LNK2019: unresolved external symbol glfwSetCursorEnterCallback referenced in function main
+ecs.obj : error LNK2019: unresolved external symbol glfwGetTime referenced in function main
+ecs.obj : error LNK2019: unresolved external symbol glfwSwapBuffers referenced in function main
+glazy_common.obj : error LNK2019: unresolved external symbol glfwInit referenced in function "struct GLFWwindow * __cdecl glazy::context::setup(struct glm::vec<2,int,0>,struct glm::vec<2,int,0>,char const *,class std::vector<struct glazy::context::WindowHint,class std::allocator<struct glazy::context::WindowHint> >)" (?setup@context@glazy@@YAPEAUGLFWwindow@@U?$vec@$01H$0A@@glm@@0PEBDV?$vector@UWindowHint@context@glazy@@V?$allocator@UWindowHint@context@glazy@@@std@@@std@@@Z)
+glazy_common.obj : error LNK2019: unresolved external symbol glfwSetErrorCallback referenced in function "struct GLFWwindow * __cdecl glazy::context::setup(struct glm::vec<2,int,0>,struct glm::vec<2,int,0>,char const *,class std::vector<struct glazy::context::WindowHint,class std::allocator<struct glazy::context::WindowHint> >)" (?setup@context@glazy@@YAPEAUGLFWwindow@@U?$vec@$01H$0A@@glm@@0PEBDV?$vector@UWindowHint@context@glazy@@V?$allocator@UWindowHint@context@glazy@@@std@@@std@@@Z)
+glazy_common.obj : error LNK2019: unresolved external symbol glfwWindowHint referenced in function "struct GLFWwindow * __cdecl glazy::context::setup(struct glm::vec<2,int,0>,struct glm::vec<2,int,0>,char const *,class std::vector<struct glazy::context::WindowHint,class std::allocator<struct glazy::context::WindowHint> >)" (?setup@context@glazy@@YAPEAUGLFWwindow@@U?$vec@$01H$0A@@glm@@0PEBDV?$vector@UWindowHint@context@glazy@@V?$allocator@UWindowHint@context@glazy@@@std@@@std@@@Z)
+glazy_common.obj : error LNK2019: unresolved external symbol glfwCreateWindow referenced in function "struct GLFWwindow * __cdecl glazy::context::setup(struct glm::vec<2,int,0>,struct glm::vec<2,int,0>,char const *,class std::vector<struct glazy::context::WindowHint,class std::allocator<struct glazy::context::WindowHint> >)" (?setup@context@glazy@@YAPEAUGLFWwindow@@U?$vec@$01H$0A@@glm@@0PEBDV?$vector@UWindowHint@context@glazy@@V?$allocator@UWindowHint@context@glazy@@@std@@@std@@@Z)
+glazy_common.obj : error LNK2019: unresolved external symbol glfwSetWindowPos referenced in function "struct GLFWwindow * __cdecl glazy::context::setup(struct glm::vec<2,int,0>,struct glm::vec<2,int,0>,char const *,class std::vector<struct glazy::context::WindowHint,class std::allocator<struct glazy::context::WindowHint> >)" (?setup@context@glazy@@YAPEAUGLFWwindow@@U?$vec@$01H$0A@@glm@@0PEBDV?$vector@UWindowHint@context@glazy@@V?$allocator@UWindowHint@context@glazy@@@std@@@std@@@Z)
+glazy_common.obj : error LNK2019: unresolved external symbol glfwMakeContextCurrent referenced in function "struct GLFWwindow * __cdecl glazy::context::setup(struct glm::vec<2,int,0>,struct glm::vec<2,int,0>,char const *,class std::vector<struct glazy::context::WindowHint,class std::allocator<struct glazy::context::WindowHint> >)" (?setup@context@glazy@@YAPEAUGLFWwindow@@U?$vec@$01H$0A@@glm@@0PEBDV?$vector@UWindowHint@context@glazy@@V?$allocator@UWindowHint@context@glazy@@@std@@@std@@@Z)
+glazy_common.obj : error LNK2019: unresolved external symbol glfwSwapInterval referenced in function "struct GLFWwindow * __cdecl glazy::context::setup(struct glm::vec<2,int,0>,struct glm::vec<2,int,0>,char const *,class std::vector<struct glazy::context::WindowHint,class std::allocator<struct glazy::context::WindowHint> >)" (?setup@context@glazy@@YAPEAUGLFWwindow@@U?$vec@$01H$0A@@glm@@0PEBDV?$vector@UWindowHint@context@glazy@@V?$allocator@UWindowHint@context@glazy@@@std@@@std@@@Z)
+glazy_common.obj : error LNK2019: unresolved external symbol glfwGetProcAddress referenced in function "struct GLFWwindow * __cdecl glazy::context::setup(struct glm::vec<2,int,0>,struct glm::vec<2,int,0>,char const *,class std::vector<struct glazy::context::WindowHint,class std::allocator<struct glazy::context::WindowHint> >)" (?setup@context@glazy@@YAPEAUGLFWwindow@@U?$vec@$01H$0A@@glm@@0PEBDV?$vector@UWindowHint@context@glazy@@V?$allocator@UWindowHint@context@glazy@@@std@@@std@@@Z)
+E:\Gaming\textbox\game\\link\glfw3.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+E:\Gaming\textbox\game\\link\freetype.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+E:\Gaming\textbox\game\x64\Debug\game.exe : fatal error LNK1120: 18 unresolved externals

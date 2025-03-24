@@ -1,0 +1,15 @@
+﻿  common.cpp
+  components.cpp
+  ecs.cpp
+  level.cpp
+  quad.cpp
+  glazy_buffer.cpp
+  glazy_common.cpp
+  glazy_ecs.cpp
+  glazy_program.cpp
+  glazy_texture.cpp
+  glazy_vao.cpp
+  shape.cpp
+  Generating Code...
+  glad.c
+LINK : fatal error LNK1104: cannot open file 'opengl32.lib'
